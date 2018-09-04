@@ -1,0 +1,8 @@
+﻿VERIFICATION
+
+The checksum stored comes from the flatc.exe file contained in the windows zip file found here: https://github.com/google/flatbuffers/releases
+The psakefile will download the version specified in the nuspec, so a quick and easy way to validate the checksum is to run:
+Invoke-psake checksum
+
+To manually update the checksum file I run the following command:
+Get-FileHash -Path '.\flatc_windows_exe\flatc.exe' -Algorithm SHA256

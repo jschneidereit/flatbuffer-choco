@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>flatc</id>
+    <version>1.9.0</version>
+    <packageSourceUrl>https://github.com/google/flatbuffers</packageSourceUrl>
+    <owners>Jim Schneidereit</owners>
+    <title>flatc (Install)</title>
+    <authors>Wouter van Oortmerssen</authors>
+    <projectUrl>https://github.com/google/flatbuffers</projectUrl>
+    <iconUrl>https://google.github.io/flatbuffers/fpl_logo_small.png</iconUrl>
+    <copyright>Copyright 2014 Google Inc.</copyright>
+    <licenseUrl>https://github.com/google/flatbuffers/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/google/flatbuffers</projectSourceUrl>
+    <docsUrl>https://google.github.io/flatbuffers/</docsUrl>
+    <bugTrackerUrl>https://github.com/google/flatbuffers/issues</bugTrackerUrl>
+    <tags>flatc flatbuffers serialization</tags>
+    <summary>FlatBuffers is an efficient cross platform serialization library for C++, C#, C, Go, Java, JavaScript, Lobster, Lua, TypeScript, PHP, and Python. It was originally created at Google for game development and other performance-critical applications.</summary>
+    <description>FlatBuffers is an efficient cross platform serialization library for C++, C#, C, Go, Java, JavaScript, Lobster, Lua, TypeScript, PHP, and Python. It was originally created at Google for game development and other performance-critical applications.</description>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src=".\flatc_windows_exe\flatc.exe" target="tools" />
+  </files>
+</package>
