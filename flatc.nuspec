@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>flatc</id>
-    <version>1.9.0</version>
+    <version>1.10.0</version>
     <packageSourceUrl>https://github.com/google/flatbuffers</packageSourceUrl>
     <owners>Jim Schneidereit</owners>
-    <title>flatc (Install)</title>
+    <title>FlatBuffers</title>
     <authors>Wouter van Oortmerssen</authors>
-    <projectUrl>https://github.com/google/flatbuffers</projectUrl>
+    <projectUrl>http://google.github.io/flatbuffers/</projectUrl>
     <iconUrl>https://google.github.io/flatbuffers/fpl_logo_small.png</iconUrl>
     <copyright>Copyright 2014 Google Inc.</copyright>
     <licenseUrl>https://github.com/google/flatbuffers/blob/master/LICENSE.txt</licenseUrl>
