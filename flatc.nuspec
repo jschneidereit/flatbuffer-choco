@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>flatc</id>
-    <version>1.10.0</version>
+    <version>1.11.0</version>
     <packageSourceUrl>https://github.com/google/flatbuffers</packageSourceUrl>
     <owners>Jim Schneidereit</owners>
     <title>FlatBuffers</title>
@@ -17,7 +17,11 @@
     <bugTrackerUrl>https://github.com/google/flatbuffers/issues</bugTrackerUrl>
     <tags>flatc flatbuffers serialization</tags>
     <summary>FlatBuffers is an efficient cross platform serialization library for C++, C#, C, Go, Java, JavaScript, Lobster, Lua, TypeScript, PHP, and Python. It was originally created at Google for game development and other performance-critical applications.</summary>
-    <description>FlatBuffers is an efficient cross platform serialization library for C++, C#, C, Go, Java, JavaScript, Lobster, Lua, TypeScript, PHP, and Python. It was originally created at Google for game development and other performance-critical applications.</description>
+    <description>
+    FlatBuffers is an efficient cross platform serialization library for C++, C#, C, Go, Java, JavaScript, Lobster, Lua, TypeScript, PHP, and Python. It was originally created at Google for game development and other performance-critical applications.
+    
+    See: https://github.com/jschneidereit/flatbuffer-choco to send a pull request for an updated version of flatc!
+    </description>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.1.0" />
     </dependencies>
