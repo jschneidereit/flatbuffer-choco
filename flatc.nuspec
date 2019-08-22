@@ -3,16 +3,17 @@
   <metadata>
     <id>flatc</id>
     <version>1.11.0</version>
-    <packageSourceUrl>https://github.com/google/flatbuffers</packageSourceUrl>
     <owners>Jim Schneidereit</owners>
+    <iconUrl>https://rawcdn.githack.com/jschneidereit/flatbuffer-choco/b3ad5ec2c78447cf9bf4c92c7c3d1fe696d53e75/icons/fpl_logo_small.png</iconUrl>
+    <packageSourceUrl>https://github.com/jschneidereit/flatbuffer-choco</packageSourceUrl>
+    <projectSourceUrl>https://github.com/google/flatbuffers</projectSourceUrl>
+    <projectUrl>http://google.github.io/flatbuffers/</projectUrl>
+
+    <licenseUrl>https://github.com/google/flatbuffers/blob/master/LICENSE.txt</licenseUrl>
     <title>FlatBuffers</title>
     <authors>Wouter van Oortmerssen</authors>
-    <projectUrl>http://google.github.io/flatbuffers/</projectUrl>
-    <iconUrl>https://google.github.io/flatbuffers/fpl_logo_small.png</iconUrl>
     <copyright>Copyright 2014 Google Inc.</copyright>
-    <licenseUrl>https://github.com/google/flatbuffers/blob/master/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/google/flatbuffers</projectSourceUrl>
     <docsUrl>https://google.github.io/flatbuffers/</docsUrl>
     <bugTrackerUrl>https://github.com/google/flatbuffers/issues</bugTrackerUrl>
     <tags>flatc flatbuffers serialization</tags>
@@ -27,7 +28,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="tools\**" target="tools" />
+    <file src="tools\LICENSE.txt" target="tools" />
     <file src=".\flatc_windows_exe\flatc.exe" target="tools" />
   </files>
 </package>
