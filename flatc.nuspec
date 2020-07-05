@@ -2,7 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>flatc</id>
-    <version>1.11.0</version>
+    <version>1.12.0</version>
+    <packageSourceUrl>https://github.com/google/flatbuffers</packageSourceUrl>
     <owners>Jim Schneidereit</owners>
     <iconUrl>https://rawcdn.githack.com/jschneidereit/flatbuffer-choco/b3ad5ec2c78447cf9bf4c92c7c3d1fe696d53e75/icons/fpl_logo_small.png</iconUrl>
     <packageSourceUrl>https://github.com/jschneidereit/flatbuffer-choco</packageSourceUrl>
@@ -28,7 +29,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="tools\LICENSE.txt" target="tools" />
-    <file src=".\flatc_windows_exe\flatc.exe" target="tools" />
+    <file src="tools\**" target="tools" />
+    <file src=".\flatc_windows\flatc.exe" target="tools" />
   </files>
 </package>
