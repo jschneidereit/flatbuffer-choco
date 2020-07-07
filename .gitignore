@@ -1,4 +1,6 @@
 *.nupkg
 *.zip
-/flatc_windows_exe
 /flatc.*
+*.exe
+/flatc_windows_exe
+/flatc_windows

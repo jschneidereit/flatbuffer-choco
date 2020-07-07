@@ -1,6 +1,6 @@
 Properties {
     $checksum = Get-Content -Path '.\tools\CHECKSUM.txt' -Raw
-    $file = 'flatc_windows_exe'
+    $file = 'flatc_windows'
     $zip = "$file.zip"
     [xml]$xml = Get-Content 'flatc.nuspec' -Raw
 }
@@ -15,7 +15,8 @@ function Get-LatestVersionNumber {
 Task Clean {
     Remove-Item '*.zip' -Force -ErrorAction SilentlyContinue
     Remove-Item '*.nupkg' -Force -ErrorAction SilentlyContinue
-    Remove-Item -Path 'flatc_windows_exe*' -Recurse -Force -ErrorAction SilentlyContinue
+    Remove-Item -Path 'flatc_windows_exe' -Recurse -Force -ErrorAction SilentlyContinue
+    Remove-Item -Path 'flatc_windows' -Recurse -Force -ErrorAction SilentlyContinue
 }
 
 Task Download -depends Clean {    
